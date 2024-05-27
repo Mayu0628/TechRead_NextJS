@@ -7,8 +7,10 @@ const Sidebar = () => {
   return (
     <div>
       <p>image</p>
-      <CalendarIcon />
-      <DescriptionIcon />
+      <div className="icon">
+        <CalendarIcon />
+        <DescriptionIcon />
+      </div>
       <SettingsIcon />
     </div>
   );

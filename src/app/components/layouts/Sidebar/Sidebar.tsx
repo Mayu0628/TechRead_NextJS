@@ -5,8 +5,7 @@ import CalendarIcon from "@/features/Event/Calendar/CalendarIcon";
 
 const Sidebar = () => {
   return (
-    <div>
-      <p>image</p>
+    <div className="background">
       <div className="icon">
         <CalendarIcon />
         <DescriptionIcon />

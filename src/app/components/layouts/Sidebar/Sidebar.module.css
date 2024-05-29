@@ -1,5 +1,6 @@
 .background {
   display: flex;
+  background-color: #6dbbff;
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;

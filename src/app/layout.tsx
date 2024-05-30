@@ -1,4 +1,5 @@
 import Sidebar from "@/components/layouts/Sidebar/Sidebar";
+import styles from "./RootLayout.module.css";
 
 export const metadata = {
   title: "Next.js",
@@ -11,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html>
+    <html className={styles.main}>
       <Sidebar />
       <body>{children}</body>
     </html>

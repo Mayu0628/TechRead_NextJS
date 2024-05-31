@@ -13,8 +13,12 @@ export default function RootLayout({
 }) {
   return (
     <html className={styles.main}>
-      <Sidebar />
-      <body>{children}</body>
+      <body className={styles.rootLayout}>
+        <div className={styles.sidebarContainer}>
+          <Sidebar />
+        </div>
+        <div>{children}</div>
+      </body>
     </html>
   );
 }

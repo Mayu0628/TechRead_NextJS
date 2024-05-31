@@ -1,5 +1,17 @@
-.main {
+.rootLayout {
+  margin: 0;
+  padding: 0;
   display: flex;
-  flex-direction: column;
+}
+
+.main {
   height: 100vh;
+  width: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
 }

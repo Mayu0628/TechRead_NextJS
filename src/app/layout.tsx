@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html className={styles.main}>
       <body className={styles.rootLayout}>
-        <div className={styles.sidebarContainer}>
+        <div>
           <Sidebar />
         </div>
         <div>{children}</div>

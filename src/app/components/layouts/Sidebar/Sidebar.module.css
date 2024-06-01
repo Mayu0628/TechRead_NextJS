@@ -1,9 +1,9 @@
 .background {
+  height: 100%;
   display: flex;
   background-color: #6dbbff;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
   padding: 20px;
 }
 

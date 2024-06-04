@@ -6,12 +6,14 @@ import styles from "./Sidebar.module.css";
 
 const Sidebar = () => {
   return (
-    <div className={styles.background}>
-      <div className={styles.icon}>
-        <CalendarIcon />
-        <DescriptionIcon />
+    <div className={styles.sidebarConteainer}>
+      <div className={styles.background}>
+        <div className={styles.icon}>
+          <CalendarIcon />
+          <DescriptionIcon />
+        </div>
+        <SettingsIcon />
       </div>
-      <SettingsIcon />
     </div>
   );
 };

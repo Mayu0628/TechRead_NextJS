@@ -4,5 +4,19 @@
 }
 
 body {
+  background-color: aquamarine;
   display: flex;
+  height: 100vh;
+}
+
+.sidebarConteainer {
+  background-color: blanchedalmond;
+}
+
+:root{
+  --myheight: 100px;
+}
+
+.background {
+  height: var(--myheight);
 }

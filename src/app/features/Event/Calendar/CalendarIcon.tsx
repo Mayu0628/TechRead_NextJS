@@ -5,7 +5,7 @@ import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import EventDialog from "./component/EventDialog";
 import "@/styles/globals.css";
 
-const CalendarIcon = () => {
+const CalendarIconComponent = () => {
   const [open, setOpen] = useState(false);
 
   const handleClickOpen = () => {
@@ -23,4 +23,4 @@ const CalendarIcon = () => {
   );
 };
 
-export default CalendarIcon;
+export default CalendarIconComponent;

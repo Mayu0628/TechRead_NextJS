@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import EventDialog from "./component/EventDialog";
+import "@/styles/globals.css";
 
 const CalendarIcon = () => {
   const [open, setOpen] = useState(false);
@@ -16,7 +17,7 @@ const CalendarIcon = () => {
   };
   return (
     <div>
-      <CalendarMonthIcon onClick={handleClickOpen} />
+      <CalendarMonthIcon onClick={handleClickOpen} className="icon" />
       <EventDialog open={open} onClose={handleClose} />
     </div>
   );

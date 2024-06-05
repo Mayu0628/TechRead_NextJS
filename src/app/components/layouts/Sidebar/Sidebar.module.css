@@ -1,17 +1,22 @@
-.sidebarConteainer {
-  background-color: blanchedalmond;
-}
-
 .background {
-  background-color: #6dbbff;
+  height: 100%;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding: 20px;
+  padding: 15px;
+  border-right: 2px solid #eeeeee;
+  gap: 18px;
+  text-align: center;
 }
 
-.icon {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.under_Icon {
+  margin-top: auto;
+}
+
+.no_Img {
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border: 2px solid #eeeeee;
 }

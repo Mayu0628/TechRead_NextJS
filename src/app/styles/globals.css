@@ -20,3 +20,10 @@ body {
   flex-grow: 1;
   overflow-y: auto;
 }
+
+.sidebarIcon {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

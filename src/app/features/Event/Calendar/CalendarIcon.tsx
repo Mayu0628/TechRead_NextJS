@@ -17,7 +17,7 @@ const CalendarIconComponent = () => {
   };
   return (
     <div>
-      <CalendarMonthIcon onClick={handleClickOpen} className="icon" />
+      <CalendarMonthIcon onClick={handleClickOpen} className="sidebarIcon" />
       <EventDialog open={open} onClose={handleClose} />
     </div>
   );

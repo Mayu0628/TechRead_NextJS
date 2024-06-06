@@ -10,12 +10,12 @@ const Sidebar = () => {
   return (
     <div className={styles.background}>
       <div>
-        <Image src={Noimg} alt="No Image" className={styles.no_Img} />
+        <Image src={Noimg} alt="No Image" className={styles.noImg} />
         <CalendarIconComponent />
-        <DescriptionIcon className="icon" />
+        <DescriptionIcon className="sidebarIcon" />
       </div>
-      <div className={styles.under_Icon}>
-        <SettingsIcon className="icon" />
+      <div className={styles.underIcon}>
+        <SettingsIcon className="sidebarIcon" />
       </div>
     </div>
   );

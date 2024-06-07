@@ -1,8 +1,12 @@
 "use client";
 
 import React, { useState } from "react";
+
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
+import { IconButton } from "@mui/material";
+
 import EventDialog from "./component/EventDialog";
+
 import "@/styles/globals.css";
 
 const CalendarIconComponent = () => {
@@ -17,7 +21,9 @@ const CalendarIconComponent = () => {
   };
   return (
     <div>
-      <CalendarMonthIcon onClick={handleClickOpen} className="sidebarIcon" />
+      <IconButton>
+        <CalendarMonthIcon onClick={handleClickOpen} fontSize="large" />
+      </IconButton>
       <EventDialog open={open} onClose={handleClose} />
     </div>
   );

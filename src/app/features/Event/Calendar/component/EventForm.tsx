@@ -1,10 +1,12 @@
 "use client";
 
 import React from "react";
+
 import AutoStoriesIcon from "@mui/icons-material/AutoStories";
-import QueryBuilderIcon from "@mui/icons-material/QueryBuilder";
 import PeopleAltIcon from "@mui/icons-material/PeopleAlt";
 import PlaceIcon from "@mui/icons-material/Place";
+import QueryBuilderIcon from "@mui/icons-material/QueryBuilder";
+
 import Input from "@/components/elements/input/Input";
 
 const EventForm = () => {

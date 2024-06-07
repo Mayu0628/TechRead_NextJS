@@ -1,10 +1,13 @@
 import React from "react";
-import Image from "next/image";
+
 import DescriptionIcon from "@mui/icons-material/Description";
-import SettingsIcon from "@mui/icons-material/Settings";
-import CalendarIconComponent from "@/features/Event/Calendar/CalendarIcon";
-import styles from "@/components/layouts/Sidebar/Sidebar.module.css";
+import { IconButton } from "@mui/material";
+import Image from "next/image";
+
 import Noimg from "@/assets/images/noimg.jpeg";
+import MenuListComposition from "@/components/elements/Menu/MenuListComposition";
+import styles from "@/components/layouts/Sidebar/Sidebar.module.css";
+import CalendarIconComponent from "@/features/Event/Calendar/CalendarIcon";
 
 const Sidebar = () => {
   return (
@@ -12,11 +15,11 @@ const Sidebar = () => {
       <div>
         <Image src={Noimg} alt="No Image" className={styles.noImg} />
         <CalendarIconComponent />
-        <DescriptionIcon className="sidebarIcon" />
+        <IconButton>
+          <DescriptionIcon fontSize="large" />
+        </IconButton>
       </div>
-      <div className={styles.underIcon}>
-        <SettingsIcon className="sidebarIcon" />
-      </div>
+      <MenuListComposition />
     </div>
   );
 };

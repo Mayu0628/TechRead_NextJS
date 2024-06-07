@@ -1,4 +1,5 @@
 import Sidebar from "@/components/layouts/Sidebar/Sidebar";
+import "@/styles/globals.css";
 
 export const metadata = {
   title: "Next.js",
@@ -12,8 +13,12 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <Sidebar />
-      <body>{children}</body>
+      <body>
+        <div className="sidebarContainer">
+          <Sidebar />
+        </div>
+        <main className="mainContent">{children}</main>
+      </body>
     </html>
   );
 }

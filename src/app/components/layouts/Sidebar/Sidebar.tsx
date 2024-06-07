@@ -1,15 +1,24 @@
 import React from "react";
-import DescriptionIcon from "@mui/icons-material/Description";
-import SettingsIcon from "@mui/icons-material/Settings";
+
+import Image from "next/image";
+
+import Noimg from "@/assets/images/noimg.jpeg";
+import styles from "@/components/layouts/Sidebar/Sidebar.module.css";
 import CalendarIcon from "@/features/Event/Calendar/CalendarIcon";
+import MeetingNotesIcon from "@/features/MeetingNotes/MeetingNotesIcon";
+import SettingIcon from "@/features/setting/SettingIcon";
 
 const Sidebar = () => {
   return (
-    <div>
-      <p>image</p>
-      <CalendarIcon />
-      <DescriptionIcon />
-      <SettingsIcon />
+    <div className={styles.sidebarContainer}>
+      <div>
+        <Image src={Noimg} alt="No Image" className={styles.noImg} />
+        <CalendarIcon />
+        <MeetingNotesIcon />
+      </div>
+      <div>
+        <SettingIcon />
+      </div>
     </div>
   );
 };

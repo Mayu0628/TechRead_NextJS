@@ -9,7 +9,7 @@ import EventDialog from "./component/EventDialog";
 
 import "@/styles/globals.css";
 
-const CalendarIconComponent = () => {
+const CalendarIcon = () => {
   const [open, setOpen] = useState(false);
 
   const handleClickOpen = () => {
@@ -29,4 +29,4 @@ const CalendarIconComponent = () => {
   );
 };
 
-export default CalendarIconComponent;
+export default CalendarIcon;

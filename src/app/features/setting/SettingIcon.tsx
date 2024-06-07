@@ -12,7 +12,7 @@ import Paper from "@mui/material/Paper";
 import Popper from "@mui/material/Popper";
 import Stack from "@mui/material/Stack";
 
-export default function MenuListComposition() {
+const SettingIcon = () => {
   const [open, setOpen] = React.useState(false);
   const anchorRef = React.useRef<HTMLButtonElement>(null);
 
@@ -112,4 +112,6 @@ export default function MenuListComposition() {
       </div>
     </Stack>
   );
-}
+};
+
+export default SettingIcon;

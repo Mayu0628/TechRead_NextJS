@@ -78,8 +78,8 @@ const SettingIcon = () => {
         </div>
         <Popper
           open={open}
+          role="menu"
           anchorEl={anchorRef.current}
-          role={undefined}
           placement="bottom-start"
           transition
           disablePortal

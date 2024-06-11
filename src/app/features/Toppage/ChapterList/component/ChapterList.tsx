@@ -1,8 +1,8 @@
-import React from "react";
+import styles from "@/features/Toppage/ChapterList/component/ChapterList.module.css";
 
 const ChapterList = () => {
   return (
-    <div>
+    <div className={styles.chapterlistcontainer}>
       <h2>議事録一覧</h2>
       <div className="">
         <ul>

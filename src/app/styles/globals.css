@@ -11,6 +11,10 @@ body {
   overflow: hidden;
 }
 
+li {
+  list-style: none;
+}
+
 .sidebarContainer {
   height: 100vh;
   display: flex;
@@ -30,7 +34,4 @@ body {
 
 .maincontainer {
   display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
 }

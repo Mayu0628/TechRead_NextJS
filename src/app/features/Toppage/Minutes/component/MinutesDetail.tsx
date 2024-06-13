@@ -1,8 +1,8 @@
-import React from 'react'
+import styles from '@/features/Toppage/Minutes/component/MinutesDetail.module.css'
 
 const MinutesDetail = () => {
   return (
-    <div>MinutesDetail</div>
+    <div className={styles.minutesdetailcontainer}>MinutesDetail</div>
   )
 }
 

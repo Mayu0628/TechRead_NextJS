@@ -2,8 +2,9 @@
   width: 365px;
   background-color: #fff;
   margin: 20px;
+  margin-left: 36px;
   padding: 19px 10px;
-  border-radius: 10px;
+  border-radius: 18px;
   height: calc(100vh - 40px);
   overflow-y: auto;
 }
@@ -28,5 +29,5 @@
 
 .chapterlistcontainer li:hover {
   background-color: #abd6d8;
-  color: #fff; 
+  color: #fff;
 }

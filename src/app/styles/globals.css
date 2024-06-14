@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+p,
+h3,
+h4,
+a,
+li {
+  font-family: Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  color: #4b6477;
+  line-height: 1.6;
+}
+
 body {
   background-color: #d4ebec;
   display: flex;

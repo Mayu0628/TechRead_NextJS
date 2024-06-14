@@ -1,12 +1,12 @@
-import ChapterList from "@/features/Toppage/ChapterList/component/ChapterList";
-import MinutesDetail from "@/features/Toppage/Minutes/component/MinutesDetail";
-import "@/styles/globals.css"
+import "@/styles/globals.css";
+import BookList from "@/features/Toppage/BookList/component/BookList";
+import MinutesMain from "@/features/Toppage/Minutes/MinutesMain";
 
 export default function Home() {
   return (
     <main className="maincontainer">
-      <ChapterList />
-      <MinutesDetail />
+      <BookList />
+      <MinutesMain />
     </main>
   );
 }

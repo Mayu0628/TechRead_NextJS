@@ -5,8 +5,11 @@ import ChapterList from "@/features/Toppage/Minutes/component/ChapterList";
 const MinutesMain = () => {
   return (
     <div className={styles.minutescontainer}>
-      <ChapterList />
-      <ChapterDetail />
+      <h4>リーダブルコード</h4>
+      <div className={styles.maincontainer}>
+        <ChapterList />
+        <ChapterDetail />
+      </div>
     </div>
   );
 };

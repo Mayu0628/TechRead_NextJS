@@ -4,7 +4,7 @@ import React, { useState } from "react";
 
 import styles from "@/components/elements/Search/Search.module.css";
 
-const Search = ({ onSearch }) => {
+const Search = ({  }) => {
   const [query, setQuery] = useState("");
 
   const handleInputChange = (e) => {

@@ -3,9 +3,9 @@ import "@/styles/globals.css";
 
 const BookList = () => {
   return (
-    <div className={styles.chapterlistcontainer}>
+    <div className={styles.chapter_list_container}>
       <h4>書籍一覧</h4>
-      <div className="">
+      <div>
         <ul>
           <li># リーダブルコード</li>
           <li># エンジニアのすすめ</li>

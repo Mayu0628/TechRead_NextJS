@@ -1,35 +1,22 @@
-.chapterlistcontainer {
+.chapter_list_container {
   width: 365px;
-  background-color: #fff;
-  margin: 20px;
-  margin-left: 36px;
-  margin-right: 10px;
-  padding: 19px 10px;
-  border-radius: 18px;
-
   overflow-y: auto;
-  box-shadow: 1px 2px 11px 0px rgba(92, 121, 143, 0.52);
+  border-right: 1px solid #eeeeee;
 }
 
-.chapterlistcontainer h4 {
-  margin: 0 0 10px 0;
-  padding: 0 20px;
+.chapter_list_container h4 {
 }
 
-.chapterlistcontainer ul {
+.chapter_list_container ul {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
 }
 
-.chapterlistcontainer li {
-  margin: 5px 0;
-  padding: 3px 20px;
+.chapter_list_container li {
   font-size: 18px;
   border-radius: 10px;
 }
 
-.chapterlistcontainer li:hover {
+.chapter_list_container li:hover {
   background-color: #abd6d8;
   color: #fff;
 }

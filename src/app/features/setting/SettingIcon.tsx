@@ -3,7 +3,7 @@
 import * as React from "react";
 
 import SettingsIcon from "@mui/icons-material/Settings";
-import { IconButton } from "@mui/material";
+import { Grid, IconButton } from "@mui/material";
 import ClickAwayListener from "@mui/material/ClickAwayListener";
 import Grow from "@mui/material/Grow";
 import MenuItem from "@mui/material/MenuItem";
@@ -52,7 +52,7 @@ const SettingIcon = () => {
 
   return (
     <Stack direction="row" spacing={2}>
-      <div>
+      <Grid container justifyContent="center">
         <div
           style={{
             display: "flex",
@@ -73,7 +73,7 @@ const SettingIcon = () => {
               alignItems: "center",
             }}
           >
-            <SettingsIcon fontSize="large" />
+            <SettingsIcon sx={{ fontSize: 25 }} />
           </IconButton>
         </div>
         <Popper
@@ -109,7 +109,7 @@ const SettingIcon = () => {
             </Grow>
           )}
         </Popper>
-      </div>
+      </Grid>
     </Stack>
   );
 };

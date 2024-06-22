@@ -10,7 +10,7 @@ import SettingIcon from "@/features/setting/SettingIcon";
 
 const Sidebar = () => {
   return (
-    <div className={styles.sidebarContainer}>
+    <div className={styles.sidebar_container}>
       <div>
         <Image src={Noimg} alt="No Image" className={styles.noImg} />
         <CalendarIcon />

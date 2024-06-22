@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
-import { IconButton } from "@mui/material";
+import { Grid, IconButton } from "@mui/material";
 
 import EventDialog from "./component/EventDialog";
 
@@ -20,12 +20,12 @@ const CalendarIcon = () => {
     setOpen(false);
   };
   return (
-    <div>
+    <Grid container justifyContent="center" >
       <IconButton>
-        <CalendarMonthIcon onClick={handleClickOpen} fontSize="large" />
+        <CalendarMonthIcon onClick={handleClickOpen} sx={{ fontSize: 25 }} />
       </IconButton>
       <EventDialog open={open} onClose={handleClose} />
-    </div>
+    </Grid>
   );
 };
 

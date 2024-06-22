@@ -26,8 +26,9 @@ li {
   list-style: none;
 }
 
-.sidebarContainer {
+.sidebar_container {
   height: 100vh;
+  width: 100px;
   display: flex;
 }
 
@@ -41,4 +42,8 @@ li {
   height: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.icons {
+  justify-content: center;
 }

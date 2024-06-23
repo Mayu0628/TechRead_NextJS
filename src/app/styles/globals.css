@@ -35,6 +35,7 @@ li {
 .mainContent {
   flex-grow: 1;
   overflow-y: auto;
+  background-color: #d4ebec;
 }
 
 .sidebarIcon {

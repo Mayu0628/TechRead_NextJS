@@ -9,6 +9,11 @@
   justify-content: space-between;
 }
 
+.nav_container {
+  align-items: center;
+  justify-content: center;
+}
+
 .underIcon {
   text-align: center;
   margin-top: auto;

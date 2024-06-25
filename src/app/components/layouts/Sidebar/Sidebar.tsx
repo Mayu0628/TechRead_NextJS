@@ -16,7 +16,7 @@ const Sidebar = () => {
         <CalendarIcon />
         <MeetingNotesIcon />
       </div>
-      <div>
+      <div className={styles.nav_container}>
         <SettingIcon />
       </div>
     </div>

@@ -10,13 +10,13 @@ import SettingIcon from "@/features/setting/SettingIcon";
 
 const Sidebar = () => {
   return (
-    <div className={styles.sidebarContainer}>
-      <div>
+    <div className={styles.sidebar_container}>
+      <div className={styles.nav_container}>
         <Image src={Noimg} alt="No Image" className={styles.noImg} />
         <CalendarIcon />
         <MeetingNotesIcon />
       </div>
-      <div>
+      <div className={styles.nav_container}>
         <SettingIcon />
       </div>
     </div>

@@ -1,0 +1,15 @@
+.full_screen {
+  padding: 15px;
+}
+
+.main_screen {
+  background-color: #fff;
+  height: calc(100vh - 85px);
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 12px;
+  margin-bottom: 0;
+  padding: 15px 0;
+  border-radius: 10px;
+}

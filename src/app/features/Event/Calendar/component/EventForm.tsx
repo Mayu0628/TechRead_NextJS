@@ -7,7 +7,7 @@ import PeopleAltIcon from "@mui/icons-material/PeopleAlt";
 import PlaceIcon from "@mui/icons-material/Place";
 import QueryBuilderIcon from "@mui/icons-material/QueryBuilder";
 
-import Input from "@/components/elements/input/Input";
+import Input from "@/components/elements/Input/Input";
 
 const EventForm = () => {
   return (

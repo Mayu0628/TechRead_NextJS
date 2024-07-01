@@ -1,0 +1,8 @@
+.minutescontainer {
+  width: 770px;
+  border-radius: 18px;
+}
+
+.maincontainer {
+  display: flex;
+}

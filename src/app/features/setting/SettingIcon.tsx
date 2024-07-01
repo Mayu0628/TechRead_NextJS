@@ -3,7 +3,7 @@
 import * as React from "react";
 
 import SettingsIcon from "@mui/icons-material/Settings";
-import { IconButton } from "@mui/material";
+import { Grid, IconButton } from "@mui/material";
 import ClickAwayListener from "@mui/material/ClickAwayListener";
 import Grow from "@mui/material/Grow";
 import MenuItem from "@mui/material/MenuItem";
@@ -52,7 +52,7 @@ const SettingIcon = () => {
 
   return (
     <Stack direction="row" spacing={2}>
-      <div>
+      <Grid container justifyContent="center">
         <div
           style={{
             display: "flex",
@@ -73,13 +73,13 @@ const SettingIcon = () => {
               alignItems: "center",
             }}
           >
-            <SettingsIcon fontSize="large" />
+            <SettingsIcon sx={{ fontSize: 25 }} />
           </IconButton>
         </div>
         <Popper
           open={open}
+          role="menu"
           anchorEl={anchorRef.current}
-          role={undefined}
           placement="bottom-start"
           transition
           disablePortal
@@ -100,8 +100,6 @@ const SettingIcon = () => {
                     aria-labelledby="composition-button"
                     onKeyDown={handleListKeyDown}
                   >
-                    <MenuItem onClick={handleClose}>Profile</MenuItem>
-                    <MenuItem onClick={handleClose}>My account</MenuItem>
                     <MenuItem onClick={handleClose}>Logout</MenuItem>
                   </MenuList>
                 </ClickAwayListener>
@@ -109,7 +107,7 @@ const SettingIcon = () => {
             </Grow>
           )}
         </Popper>
-      </div>
+      </Grid>
     </Stack>
   );
 };

@@ -1,0 +1,19 @@
+.chapter_list_container {
+  width: 365px;
+  overflow-y: auto;
+  border-right: 1px solid #eeeeee;
+}
+
+.chapter_list_container ul {
+  list-style-type: none;
+}
+
+.chapter_list_container li {
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.chapter_list_container li:hover {
+  background-color: #abd6d8;
+  color: #fff;
+}

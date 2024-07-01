@@ -22,8 +22,10 @@ const EventDialog = ({ open, onClose }) => {
         <EventForm />
       </DialogContent>
       <DialogActions>
-        <button onClick={onClose}>キャンセル</button>
-        <button onClick={onClose} autoFocus>
+        <button type="button" onClick={onClose}>
+          キャンセル
+        </button>
+        <button type="button" onClick={onClose} autoFocus>
           作成
         </button>
       </DialogActions>

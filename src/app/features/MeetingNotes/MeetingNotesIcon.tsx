@@ -1,15 +1,15 @@
 import React from "react";
 
 import DescriptionIcon from "@mui/icons-material/Description";
-import { IconButton } from "@mui/material";
+import { Grid, IconButton } from "@mui/material";
 
 const MeetingNotesIcon = () => {
   return (
-    <div>
+    <Grid container justifyContent="center">
       <IconButton>
-        <DescriptionIcon fontSize="large" />
+        <DescriptionIcon sx={{ fontSize: 25 }} />
       </IconButton>
-    </div>
+    </Grid>
   );
 };
 
